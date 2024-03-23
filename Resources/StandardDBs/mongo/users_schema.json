@@ -1,0 +1,79 @@
+{
+  "$jsonSchema": {
+    "required": [
+      "_id",
+      "username",
+      "password",
+      "language",
+      "layout",
+      "isAdmin",
+      "accountBalance",
+      "albums"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "username": {
+        "bsonType": "string"
+      },
+      "password": {
+        "bsonType": "string"
+      },
+      "language": {
+        "bsonType": "string"
+      },
+      "layout": {
+        "bsonType": "string"
+      },
+      "isAdmin": {
+        "bsonType": "bool"
+      },
+      "accountBalance": {
+        "bsonType": "int"
+      },
+      "albums": {
+        "bsonType": "array",
+        "items": {
+          "type": "object",
+          "required": ["Image", "Name", "Artist", "Price", "Selling", "songs"],
+          "properties": {
+            "Image": {
+              "bsonType": "binData"
+            },
+            "Name": {
+              "bsonType": "string"
+            },
+            "Artist": {
+              "bsonType": "objectId"
+            },
+            "Price": {
+              "bsonType": "int"
+            },
+            "Selling": {
+              "bsonType": "bool"
+            },
+            "songs": {
+              "bsonType": "array",
+              "items": {
+                "type": "object",
+                "required": ["Image", "Name", "Song"],
+                "properties": {
+                  "Image": {
+                    "bsonType": "binData"
+                  },
+                  "Name": {
+                    "bsonType": "string"
+                  },
+                  "Song": {
+                    "bsonType": "objectId"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

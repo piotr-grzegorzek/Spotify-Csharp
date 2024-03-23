@@ -1,0 +1,16 @@
+{
+  "$jsonSchema": {
+    "required": ["_id", "Image", "Name"],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "Image": {
+        "bsonType": "binData"
+      },
+      "Name": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

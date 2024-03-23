@@ -1,0 +1,42 @@
+﻿<mah:MetroWindow x:Class="Studio.SettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Studio"
+        mc:Ignorable="d"
+        Title="{DynamicResource Settings}"
+        FocusManager.FocusedElement="{Binding ElementName=cmbLang}"
+        WindowStartupLocation="CenterOwner"
+        Style="{StaticResource Modal}">
+    <Grid Style="{StaticResource modalGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" Style="{StaticResource dialogChoiceLabel}" Content="{DynamicResource Language}"/>
+        <ComboBox Name="cmbLang" Grid.Column="1" Grid.Row="0" Style="{StaticResource dialogChoiceValueCmb}">
+            <ComboBoxItem IsSelected="True" Tag="{StaticResource tagENG}" Content="{DynamicResource English}"/>
+            <ComboBoxItem Tag="{StaticResource tagPL}" Content="{DynamicResource Polish}"/>
+        </ComboBox>
+
+        <Label Grid.Column="0" Grid.Row="1" Style="{StaticResource dialogChoiceLabel}" Content="{DynamicResource Mode}"/>
+        <ComboBox Name="cmbLayout" Grid.Column="1" Grid.Row="1" Style="{StaticResource dialogChoiceValueCmb}">
+            <ComboBoxItem IsSelected="True" Tag="{StaticResource tagLight}" Content="{DynamicResource Light}"/>
+            <ComboBoxItem Tag="{StaticResource tagDark}" Content="{DynamicResource Dark}"/>
+        </ComboBox>
+
+        <StackPanel Grid.Column="2" Grid.Row="2" Style="{StaticResource dialogSubmitPanel}">
+            <Button Name="okButton" Click="okButton_Click" Style="{StaticResource dialogOK}">OK</Button>
+            <Button x:Name="cancelButton" Click="cancelButton_Click" Style="{StaticResource dialogCancel}" Content="{DynamicResource Cancel}"/>
+        </StackPanel>
+    </Grid >
+</mah:MetroWindow>

@@ -1,0 +1,82 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="Cancel Sell">Cancel Sell</system:String>
+    <system:String x:Key="no_money">You cant afford that</system:String>
+    <system:String x:Key="Shop">Shop</system:String>
+    <system:String x:Key="Edit Studio Name">Edit Studio Name</system:String>
+
+    <system:String x:Key="bad_username_or_password">Incorrect username or password</system:String>
+	<system:String x:Key="bad_register_username">Username must be between 2 and 32 in length</system:String>
+	<system:String x:Key="bad_register_password">Password must be at least 8 characters long</system:String>
+    <system:String x:Key="diff_register_password">Passwords must be the same</system:String>
+    <system:String x:Key="err_duplicate_name">This name is already taken</system:String>
+    <system:String x:Key="err_rules_not_found">The rules could not be loaded, check if it has not been deleted</system:String>
+    <system:String x:Key="err_no_image">Choose an image</system:String>
+    <system:String x:Key="err_no_name">Name cannot be empty</system:String>
+    <system:String x:Key="err_invalid_price">Invalid price</system:String>
+    <system:String x:Key="err_no_song">Choose a song</system:String>
+    <system:String x:Key="err_invalid_permission">Invalid permission</system:String>
+    <system:String x:Key="err_invalid_balance">Invalid account balance</system:String>
+    <system:String x:Key="err_last_admin">You are the last admin</system:String>
+    <system:String x:Key="err_not_enough_artists">Create a new artist</system:String>
+
+    <system:String x:Key="Album Artist Update">Album Artist Update</system:String>
+    <system:String x:Key="info_update_albums_artist">The artist is the author of the existing albums, select his successor</system:String>
+    
+    <system:String x:Key="Login">Login</system:String>
+    <system:String x:Key="Username">Username</system:String>
+    <system:String x:Key="Password">Password</system:String>
+    <system:String x:Key="RePassword">Confirm password</system:String>
+    <system:String x:Key="Register">Register</system:String>
+    <system:String x:Key="Language">Language</system:String>
+    <system:String x:Key="English">English</system:String>
+    <system:String x:Key="Polish">Polish</system:String>
+    <system:String x:Key="Mode">Mode</system:String>
+    <system:String x:Key="Light">Light</system:String>
+    <system:String x:Key="Dark">Dark</system:String>
+    <system:String x:Key="Submit">Submit</system:String>
+    <system:String x:Key="Settings">Settings</system:String>
+    <system:String x:Key="Purchase History">Purchase History</system:String>
+    <system:String x:Key="Rules">Rules</system:String>
+    <system:String x:Key="Logout">Log Out</system:String>
+    <system:String x:Key="Admin">Administration</system:String>
+    <system:String x:Key="Artists">Artists</system:String>
+    <system:String x:Key="Users">Users</system:String>
+    <system:String x:Key="Backup">Backup</system:String>
+
+    <system:String x:Key="Permissions">Permissions</system:String>
+    
+    <system:String x:Key="Account Balance">Account Balance</system:String>
+    <system:String x:Key="Library">Library</system:String>
+    <system:String x:Key="Main Page">Main Page</system:String>
+    <system:String x:Key="New Album">New Album</system:String>
+    <system:String x:Key="New Artist">New Artist</system:String>
+    <system:String x:Key="New Song">New Song</system:String>
+    <system:String x:Key="Edit">Edit</system:String>
+    <system:String x:Key="Edit Album">Edit Album</system:String>
+    <system:String x:Key="Edit Artist">Edit Artist</system:String>
+    <system:String x:Key="Edit Song">Edit Song</system:String>
+    <system:String x:Key="Remove">Remove</system:String>
+
+    <system:String x:Key="MadeBy">Made by</system:String>
+    <system:String x:Key="OwnedBy">Owned by</system:String>
+    <system:String x:Key="PricedAt">Priced at</system:String>
+    <system:String x:Key="From">From</system:String>
+
+    <system:String x:Key="Cancel">Cancel</system:String>
+    <system:String x:Key="Image">Image</system:String>
+    <system:String x:Key="Select File">Select File</system:String>
+    <system:String x:Key="Name">Name</system:String>
+    <system:String x:Key="Album">Album</system:String>
+    <system:String x:Key="Song">Song</system:String>
+    <system:String x:Key="Artist">Artist</system:String>
+    <system:String x:Key="Owner">Owner</system:String>
+    <system:String x:Key="Price">Price</system:String>
+    
+    <system:String x:Key="Studio name">Studio name</system:String>
+
+    <system:String x:Key="Buy">Buy</system:String>
+    <system:String x:Key="Sell">Sell</system:String>
+    <system:String x:Key="Send">Send</system:String>
+</ResourceDictionary>

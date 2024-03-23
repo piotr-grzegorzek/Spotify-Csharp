@@ -1,0 +1,16 @@
+{
+  "$jsonSchema": {
+    "required": ["_id", "logo", "studioName"],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "logo": {
+        "bsonType": "binData"
+      },
+      "studioNameName": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

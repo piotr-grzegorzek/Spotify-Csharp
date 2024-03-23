@@ -1,0 +1,40 @@
+﻿<mah:MetroWindow x:Class="Studio.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Studio"
+        mc:Ignorable="d"
+        Title="{DynamicResource Register}"
+        FocusManager.FocusedElement="{Binding ElementName=txtUsername}"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource LogRegWindow}">
+    <Grid Style="{StaticResource logGrid}">
+        <StackPanel Style="{StaticResource logPanel}">
+            <Label Content="{DynamicResource Username}" Style="{StaticResource logElementLabel}" />
+            <TextBox Name="txtUsername" Style="{StaticResource logElementText}"/>
+            
+            <Label Content="{DynamicResource Password}" Style="{StaticResource logElementLabel}" />
+            <PasswordBox Name="txtPassword" Style="{StaticResource logElementPass}" />
+            
+            <Label Content="{DynamicResource RePassword}" Style="{StaticResource logElementLabel}" />
+            <PasswordBox Name="txtRePassword" Style="{StaticResource logElementPass}" />
+            
+            <Label Content="{DynamicResource Language}" Style="{StaticResource logElementLabel}" />
+            <ComboBox Name="cmbLang" Style="{StaticResource logElementCmb}">
+                <ComboBoxItem IsSelected="True" Tag="{StaticResource tagENG}" Content="{DynamicResource English}"/>
+                <ComboBoxItem Tag="{StaticResource tagPL}" Content="{DynamicResource Polish}"/>
+            </ComboBox>
+            
+            <Label Content="{DynamicResource Mode}" Style="{StaticResource logElementLabel}"/>
+            <ComboBox Name="cmbLayout" Style="{StaticResource logElementCmb}">
+                <ComboBoxItem IsSelected="True" Tag="{StaticResource tagLight}" Content="{DynamicResource Light}"/>
+                <ComboBoxItem Tag="{StaticResource tagDark}" Content="{DynamicResource Dark}"/>
+            </ComboBox>
+
+            <Button x:Name="btnSubmit" Click="BtnSubmit_Click" Style="{StaticResource logBtnFirst}" Content="{DynamicResource Submit}" />
+            <Button x:Name="btnLogin" Click="BtnLogin_Click" Style="{StaticResource logBtnNext}" Content="{DynamicResource Login}" />
+        </StackPanel>
+    </Grid>
+</mah:MetroWindow>

@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro">
+    <SolidColorBrush x:Key="colorCard">#303030</SolidColorBrush>
+    <SolidColorBrush x:Key="colorCardHover">#575757</SolidColorBrush>
+    <SolidColorBrush x:Key="colorCardText1">WhiteSmoke</SolidColorBrush>
+    <SolidColorBrush x:Key="colorCardText2">LightGray</SolidColorBrush>
+</ResourceDictionary>

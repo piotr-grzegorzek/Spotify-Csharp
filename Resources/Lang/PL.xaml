@@ -1,0 +1,82 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="Cancel Sell">Anuluj Sprzedaż</system:String>
+    <system:String x:Key="no_money">Niewystarczająca ilość środków na koncie</system:String>
+    <system:String x:Key="Shop">Sklep</system:String>
+    <system:String x:Key="Edit Studio Name">Zmiana Nazwy Studia</system:String>
+
+    <system:String x:Key="bad_username_or_password">Błędna nazwa użytkownika lub hasło</system:String>
+	<system:String x:Key="bad_register_username">Nazwa użytkownika musi posiadać od 2 do 32 znaków</system:String>
+	<system:String x:Key="bad_register_password">Hasło musi posiadać conajmniej 8 znaków</system:String>
+    <system:String x:Key="diff_register_password">Hasła muszą być takie same</system:String>
+	<system:String x:Key="err_duplicate_name">Ta nazwa jest już zajęta</system:String>
+    <system:String x:Key="err_rules_not_found">Nie udało się załadować regulaminu, sprawdź czy nie został on usunięty</system:String>
+    <system:String x:Key="err_no_image">Nie wybrano obrazka</system:String>
+    <system:String x:Key="err_no_name">Nazwa nie może być pusta</system:String>
+    <system:String x:Key="err_invalid_price">Nieprawidłowa cena</system:String>
+    <system:String x:Key="err_no_song">Nie wybrano utworu</system:String>
+    <system:String x:Key="err_invalid_permission">Nieprawidłowe uprawnienia</system:String>
+    <system:String x:Key="err_invalid_balance">Podaj prawidłowy stan konta</system:String>
+    <system:String x:Key="err_last_admin">Nie można usunąć ostatniego administratora</system:String>
+    <system:String x:Key="err_not_enough_artists">Stwórz nowego wykonawcę</system:String>
+
+    <system:String x:Key="Album Artist Update">Aktualizacja Wykonawcy Albumów</system:String>
+    <system:String x:Key="info_update_albums_artist">Wykonawca jest autorem istniejących albumów, wybierz jego następcę</system:String>
+
+    <system:String x:Key="Login">Logowanie</system:String>
+    <system:String x:Key="Username">Nazwa Użytkownika</system:String>
+    <system:String x:Key="Password">Hasło</system:String>
+    <system:String x:Key="RePassword">Powtórz hasło</system:String>
+    <system:String x:Key="Register">Rejestracja</system:String>
+    <system:String x:Key="Language">Język</system:String>
+    <system:String x:Key="English">Angielski</system:String>
+    <system:String x:Key="Polish">Polski</system:String>
+    <system:String x:Key="Mode">Tryb</system:String>
+    <system:String x:Key="Light">Jasny</system:String>
+    <system:String x:Key="Dark">Ciemny</system:String>
+    <system:String x:Key="Submit">Zatwierdź</system:String>
+    <system:String x:Key="Settings">Ustawienia</system:String>
+    <system:String x:Key="Purchase History">Historia Zakupów</system:String>
+    <system:String x:Key="Rules">Regulamin</system:String>
+    <system:String x:Key="Logout">Wyloguj</system:String>
+    <system:String x:Key="Admin">Administracja</system:String>
+    <system:String x:Key="Artists">Wykonawcy</system:String>
+    <system:String x:Key="Users">Użytkownicy</system:String>
+    <system:String x:Key="Backup">Kopia Zapasowa</system:String>
+
+    <system:String x:Key="Permissions">Uprawnienia</system:String>
+    
+    <system:String x:Key="Account Balance">Stan Konta</system:String>
+    <system:String x:Key="Library">Biblioteka</system:String>
+    <system:String x:Key="Main Page">Strona Główna</system:String>
+    <system:String x:Key="New Album">Nowy Album</system:String>
+    <system:String x:Key="New Artist">Nowy Wykonawca</system:String>
+    <system:String x:Key="New Song">Nowy Utwór</system:String>
+    <system:String x:Key="Edit">Edytuj</system:String>
+    <system:String x:Key="Edit Album">Edytuj Album</system:String>
+    <system:String x:Key="Edit Artist">Edytuj Wykonawcę</system:String>
+    <system:String x:Key="Edit Song">Edytuj Utwór</system:String>
+    <system:String x:Key="Remove">Usuń</system:String>
+
+    <system:String x:Key="MadeBy">Autorstwa</system:String>
+    <system:String x:Key="OwnedBy">W posiadaniu</system:String>
+    <system:String x:Key="PricedAt">W cenie</system:String>
+    <system:String x:Key="From">Z</system:String>
+
+    <system:String x:Key="Cancel">Anuluj</system:String>
+    <system:String x:Key="Image">Obrazek</system:String>
+    <system:String x:Key="Select File">Wybierz Plik</system:String>
+    <system:String x:Key="Name">Nazwa</system:String>
+    <system:String x:Key="Album">Album</system:String>
+    <system:String x:Key="Song">Piosenka</system:String>
+    <system:String x:Key="Artist">Wykonawca</system:String>
+    <system:String x:Key="Owner">Właściciel</system:String>
+    <system:String x:Key="Price">Cena</system:String>
+
+    <system:String x:Key="Studio name">Nazwa studia</system:String>
+
+    <system:String x:Key="Buy">Kup</system:String>
+    <system:String x:Key="Sell">Sprzedaj</system:String>
+    <system:String x:Key="Send">Wyślij</system:String>
+</ResourceDictionary>
